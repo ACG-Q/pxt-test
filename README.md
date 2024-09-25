@@ -77,5 +77,22 @@ pxt gendocs --locs
 
 </details>
 
+> 类似于 `_locales/zh-CN` 文件夹，对应的是 简体中文
+> ps. **区分大小写**
 
+### 本地化文件的文件名称格式
+
+> 前期提要:
+> Name: pxt.json里面的name字段的值
+
+```
+<Name>-strings.json
+<Name>-jsdoc-strings.json
+```
+
+### 翻译格式
+
+1. 翻译积木 "xx.xx|block"
+2. 翻译分类 "{id:category}Test"
+3. 翻译小标题 "{id:group}Basic"
 

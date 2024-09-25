@@ -1,4 +1,4 @@
-//% color="#000000" weight=100 icon="\uf1ec" block="Test Blocks"
+//% color="#000000" weight=100 icon="\uf1ec"
 //% groups="['Basic', 'Basic_Input', '特殊输入框', '特殊']"
 namespace Test {
     
@@ -19,7 +19,7 @@ namespace Test {
     
     //% block="Input Number $value"
     //% value.defl=0
-    //% group="基础输入框"
+    //% group="Basic_Input"
     export function inputNumber(value: number) {
         console.log("inputNumber`s value: ")
         console.log(value)
