@@ -1,6 +1,0 @@
-{
-    "Test|block": "[繁]MakeCode 积木学习",
-    "Test.TestHello|block": "[繁]你好世界",
-    "Test.TestInputString|block": "[繁]输入字符串 $value",
-    "Test.TestInputNumber|block": "[繁]输入数字 $value"
-}
