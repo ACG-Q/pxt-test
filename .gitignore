@@ -1,0 +1,8 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略 built 目录
+built/
+
+# 忽略 pxt_modules 目录
+pxt_modules/
