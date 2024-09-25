@@ -1,0 +1,6 @@
+{
+    "Test|block": "MakeCode 积木学习",
+    "Test.TestHello|block": "你好世界",
+    "Test.TestInputString|block": "输入字符串 $value",
+    "Test.TestInputNumber|block": "输入数字 $value"
+}
