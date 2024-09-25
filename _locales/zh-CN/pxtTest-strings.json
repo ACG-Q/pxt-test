@@ -1,6 +1,8 @@
 {
-    "Test|block": "MakeCode 积木学习",
-    "Test.TestHello|block": "你好世界",
-    "Test.TestInputString|block": "输入字符串 $value",
-    "Test.TestInputNumber|block": "输入数字 $value"
+    "Test.helloworld|block": "你好世界！",
+    "Test.inputString|block": "输入字符串 $value",
+    "Test.inputNumber|block": "输入数字  $value",
+    "{id:category}Test": "MakeCode 积木学习",
+    "{id:group}Basic": "基础",
+    "{id:group}Basic_Input": "基础输入框"
 }
