@@ -4,5 +4,7 @@
     "Test.inputNumber|block": "输入数字  $value",
     "{id:category}Test": "MakeCode 积木学习",
     "{id:group}Basic": "基础",
-    "{id:group}Basic_Input": "基础输入框"
+    "{id:group}Basic_Input": "基础输入框",
+    "{id:group}Order": "排序",
+    "{id:group}Shape": "积木形状"
 }

@@ -2,10 +2,15 @@
 
 学习如何构建自定义makecode扩展
 
+参考文档: https://makecode.com/extensions
+
+# 创建扩展
+
+参考文档: https://makecode.com/extensions/getting-started
+
 ## 自定义扩展本地化
 
 参考文档: https://makecode.com/extensions/localization
-
 
 ### 提取翻译ID/生成翻译文件
 
