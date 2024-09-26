@@ -1,0 +1,8 @@
+{
+  "Test.circle": "圆形积木",
+  "Test.command": "积木形状\r\n\r\n命令积木",
+  "Test.diamond": "菱形积木",
+  "Test.hello2": "排序",
+  "Test.onEvent": "事件积木",
+  "Test.special1": "特殊积木"
+}
