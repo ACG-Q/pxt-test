@@ -13,7 +13,7 @@
   "Test.special2_inline|block": "异形积木对比 $value1 $value2 $value3",
   "Test.special3|block": "异形积木2 | $value1 $value2 $value3",
   "Test.specialInputArrayByBoolean|block": "输入布尔数组 $value",
-  "Test.specialInputArrayByImage|block": "输入图片数组 $value",
+  "Test.specialInputArrayByImage|block": "输入图片数组 $value 【这个只支持Arcade中使用，Arcade支持Image】",
   "Test.specialInputArrayByNumber|block": "输入数字数组 $value",
   "Test.specialInputArrayByString|block": "输入字符串数组 $value",
   "Test.specialInputEnum|block": "下拉框 $value",

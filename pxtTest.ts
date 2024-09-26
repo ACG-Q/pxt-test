@@ -1,33 +1,33 @@
 enum enum1 {
     //% block="left"
-    Left,
+    Left = '77889',
     //% block="right"
-    Right,
+    Right = '65446',
     //% block="up"
-    Up,
+    Up = '56467',
     //% block="down"
-    Down
+    Down = '5467'
 }
 
 //% color="#000000" weight=100 icon="\uf1ec"
 //% groups="['Basic', 'Basic_Input', 'Order', 'Shape', 'Special', 'Special_Input']"
 namespace Test {
-    
+
     //% block="Hello World!"
     //% group="Basic"
     export function helloworld() {
         console.log("Hello World")
     }
-    
+
     //% block="Input String $value"
     //% value.defl='我是字符串'
     //% group="Basic_Input"
-    export function inputString(value:string) {
+    export function inputString(value: string) {
         console.log("inputString`s value: ")
         console.log(value)
     }
-    
-    
+
+
     //% block="Input Number $value"
     //% value.defl=0
     //% group="Basic_Input"
@@ -120,8 +120,8 @@ namespace Test {
     //% value2.defl=9527
     //% inlineInputMode=external
     //% group="Special"
-    export function special2_external(value1: string, value2: number, value3: boolean){
-        
+    export function special2_external(value1: string, value2: number, value3: boolean) {
+
     }
 
     //% block="special3 | $value1 $value2 $value3"
@@ -130,29 +130,23 @@ namespace Test {
     //% value3.shadow=toggleOnOff
     //% inlineInputMode=external
     //% group="Special"
-    export function special3(value1: string, value2: number, value3: boolean) {
-
-    }
+    export function special3(value1: string, value2: number, value3: boolean) { }
 
     //% block="special input enum $value"
     //% value.defl=enum1.Left
     //% group="Special_Input"
-    export function specialInputEnum(value: enum1) {
-        
-    }
+    export function specialInputEnum(value: enum1) { }
 
     //% block="special input variables $value"
     //% value.defl="我是新变量"
     //% value.shadow=variables_get
     //% group="Special_Input"
-    export function specialInputVariables(value: number) {
-
-    }
+    export function specialInputVariables(value: number) { }
 
     //% block="special input array $value"
     //% value.defl=[1,2,3]
     //% group="Special_Input"
-    export function specialInputArrayByNumber(value: number[]){}
+    export function specialInputArrayByNumber(value: number[]) { }
 
     //% block="special input array $value"
     //% value.defl=["字符串1","字符串2","字符串3"]
@@ -166,6 +160,7 @@ namespace Test {
 
 
     //% block="special input array $value"
+    //% value.shadow="lists_create_with"
     //% value.defl="screen_image_picker"
     //% group="Special_Input"
     export function specialInputArrayByImage(value: Image[]) { }
