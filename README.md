@@ -21,24 +21,6 @@ pxt gendocs --locs
 > 在扩展的根目录中创建一个 `_locales` 文件夹, 而翻译文件就在里面
 
 ### 支持的本地化语言
-# pxt-test
-
-学习如何构建自定义makecode扩展
-
-## 自定义扩展本地化
-
-参考文档: https://makecode.com/extensions/localization
-
-
-### 提取翻译ID/生成翻译文件
-
-```
-pxt gendocs --locs
-```
-
-> 在扩展的根目录中创建一个 `_locales` 文件夹, 而翻译文件就在里面
-
-### 支持的本地化语言
 
 <details>
   <summary>点击展开/折叠</summary>
