@@ -27,7 +27,7 @@
   "{id:group}Basic": "[繁]基础",
   "{id:group}Basic_Input": "[繁]基础输入框",
   "{id:group}Order": "[繁]排序",
-  "{id:group}Shape": "[繁]积木形状"
+  "{id:group}Shape": "[繁]积木形状",
   "{id:group}Special": "[繁]特殊",
   "{id:group}Special_Input": "[繁]特殊输入框"
 }
